@@ -1,0 +1,3629 @@
+{
+  "analytics": {
+    "dailyStats": {
+      "2025-08-18": {
+        "appointments": {
+          "cancelled": 0,
+          "completed": 0,
+          "noShow": 0,
+          "total": 0
+        },
+        "chatSupport": {
+          "avgResponseTime": 0,
+          "escalated": 0,
+          "resolved": 0,
+          "totalChats": 0
+        },
+        "prescriptionsUploaded": 0,
+        "userRegistrations": 0
+      }
+    }
+  },
+  "departments": {
+    "dept_001": {
+      "contactInfo": {
+        "email": "cardiology@medicare.com",
+        "emergencyPhone": "+1555911911",
+        "phone": "+1555123456"
+      },
+      "description": "Heart and cardiovascular care",
+      "doctors": [
+        "doctor_001"
+      ],
+      "head": "doctor_001",
+      "isActive": true,
+      "location": {
+        "building": "Main Building",
+        "floor": "2nd Floor",
+        "wing": "East Wing"
+      },
+      "name": "Cardiology",
+      "services": [
+        "ECG",
+        "Echocardiogram",
+        "Stress Testing",
+        "Cardiac Catheterization"
+      ]
+    },
+    "dept_002": {
+      "contactInfo": {
+        "email": "neurology@medicare.com",
+        "emergencyPhone": "+1555911912",
+        "phone": "+1555123457"
+      },
+      "description": "Brain and nervous system care",
+      "doctors": [
+        "doctor_002"
+      ],
+      "head": "doctor_002",
+      "isActive": true,
+      "location": {
+        "building": "Main Building",
+        "floor": "3rd Floor",
+        "wing": "West Wing"
+      },
+      "name": "Neurology",
+      "services": [
+        "EEG",
+        "MRI",
+        "CT Scan",
+        "Neurological Examination"
+      ]
+    },
+    "dept_003": {
+      "contactInfo": {
+        "email": "orthopedics@medicare.com",
+        "emergencyPhone": "+1555911913",
+        "phone": "+1555123458"
+      },
+      "description": "Bone, joint and muscle care",
+      "doctors": [
+        "doctor_003"
+      ],
+      "head": "doctor_003",
+      "isActive": true,
+      "location": {
+        "building": "Medical Center",
+        "floor": "1st Floor",
+        "wing": "North Wing"
+      },
+      "name": "Orthopedics",
+      "services": [
+        "X-Ray",
+        "Joint Replacement",
+        "Fracture Care",
+        "Sports Medicine"
+      ]
+    },
+    "dept_004": {
+      "contactInfo": {
+        "email": "pediatrics@medicare.com",
+        "emergencyPhone": "+1555911914",
+        "phone": "+1555123459"
+      },
+      "description": "Children's healthcare and development",
+      "doctors": [
+        "doctor_004"
+      ],
+      "head": "doctor_004",
+      "isActive": true,
+      "location": {
+        "building": "Children's Wing",
+        "floor": "2nd Floor",
+        "wing": "South Wing"
+      },
+      "name": "Pediatrics",
+      "services": [
+        "Vaccinations",
+        "Growth Monitoring",
+        "Pediatric Emergency",
+        "Child Development"
+      ]
+    },
+    "dept_005": {
+      "contactInfo": {
+        "email": "dermatology@medicare.com",
+        "emergencyPhone": "+1555911915",
+        "phone": "+1555123460"
+      },
+      "description": "Skin, hair and nail care",
+      "doctors": [
+        "doctor_005"
+      ],
+      "head": "doctor_005",
+      "isActive": true,
+      "location": {
+        "building": "Specialty Building",
+        "floor": "3rd Floor",
+        "wing": "East Wing"
+      },
+      "name": "Dermatology",
+      "services": [
+        "Skin Biopsy",
+        "Acne Treatment",
+        "Cosmetic Dermatology",
+        "Skin Cancer Screening"
+      ]
+    },
+    "dept_006": {
+      "contactInfo": {
+        "email": "psychiatry@medicare.com",
+        "emergencyPhone": "+1555911916",
+        "phone": "+1555123461"
+      },
+      "description": "Mental health and behavioral care",
+      "doctors": [
+        "doctor_006"
+      ],
+      "head": "doctor_006",
+      "isActive": true,
+      "location": {
+        "building": "Mental Health Center",
+        "floor": "1st Floor",
+        "wing": "Private Wing"
+      },
+      "name": "Psychiatry",
+      "services": [
+        "Therapy Sessions",
+        "Medication Management",
+        "Crisis Intervention",
+        "Psychological Testing"
+      ]
+    },
+    "dept_007": {
+      "contactInfo": {
+        "email": "gastroenterology@medicare.com",
+        "emergencyPhone": "+1555911917",
+        "phone": "+1555123462"
+      },
+      "description": "Digestive system care",
+      "doctors": [
+        "doctor_007"
+      ],
+      "head": "doctor_007",
+      "isActive": true,
+      "location": {
+        "building": "Main Building",
+        "floor": "4th Floor",
+        "wing": "Central Wing"
+      },
+      "name": "Gastroenterology",
+      "services": [
+        "Endoscopy",
+        "Colonoscopy",
+        "Liver Function Tests",
+        "IBD Treatment"
+      ]
+    },
+    "dept_008": {
+      "contactInfo": {
+        "email": "ophthalmology@medicare.com",
+        "emergencyPhone": "+1555911918",
+        "phone": "+1555123463"
+      },
+      "description": "Eye and vision care",
+      "doctors": [
+        "doctor_008"
+      ],
+      "head": "doctor_008",
+      "isActive": true,
+      "location": {
+        "building": "Specialty Building",
+        "floor": "2nd Floor",
+        "wing": "West Wing"
+      },
+      "name": "Ophthalmology",
+      "services": [
+        "Eye Exams",
+        "Cataract Surgery",
+        "Retinal Care",
+        "Glaucoma Treatment"
+      ]
+    },
+    "dept_009": {
+      "contactInfo": {
+        "email": "gynecology@medicare.com",
+        "emergencyPhone": "+1555911919",
+        "phone": "+1555123464"
+      },
+      "description": "Women's reproductive health",
+      "doctors": [
+        "doctor_009"
+      ],
+      "head": "doctor_009",
+      "isActive": true,
+      "location": {
+        "building": "Women's Health Center",
+        "floor": "1st Floor",
+        "wing": "East Wing"
+      },
+      "name": "Gynecology",
+      "services": [
+        "Prenatal Care",
+        "Pap Smears",
+        "Family Planning",
+        "Reproductive Health"
+      ]
+    },
+    "dept_010": {
+      "contactInfo": {
+        "email": "oncology@medicare.com",
+        "emergencyPhone": "+1555911920",
+        "phone": "+1555123465"
+      },
+      "description": "Cancer diagnosis and treatment",
+      "doctors": [
+        "doctor_010",
+        "doctor_011",
+        "doctor_012"
+      ],
+      "head": "doctor_010",
+      "isActive": true,
+      "location": {
+        "building": "Cancer Treatment Center",
+        "floor": "All Floors",
+        "wing": "Dedicated Building"
+      },
+      "name": "Oncology",
+      "services": [
+        "Chemotherapy",
+        "Radiation Therapy",
+        "Tumor Surgery",
+        "Cancer Screening"
+      ]
+    }
+  },
+  "doctors": {
+    "doctor_001": {
+      "profile": {
+        "avatar": "https://example.com/avatar1.jpg",
+        "bio": "Experienced cardiologist specializing in heart disease prevention and treatment",
+        "createdAt": "2025-01-01T00:00:00Z",
+        "department": "cardiology",
+        "email": "john.smith@medicare.com",
+        "experience": "15 years experience",
+        "isActive": true,
+        "licenseNumber": "MD123456",
+        "name": "Dr. John Smith",
+        "phoneNumber": "+1555123456",
+        "qualification": "MBBS, MD Cardiology",
+        "specialty": "Cardiologist",
+        "status": "available"
+      },
+      "schedule": {
+        "monday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "17:00",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "10:30 AM"
+            },
+            "slot3": {
+              "available": false,
+              "bookedBy": "Djw4QXZP7ycaI71xHepgfdgZ6jp2",
+              "duration": 30,
+              "time": "11:00 AM",
+              "updatedAt": "2025-08-18T20:15:59.303Z"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "02:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "04:00 PM"
+            }
+          }
+        }
+      },
+      "stats": {
+        "rating": 4.8,
+        "reviewCount": 67,
+        "totalAppointments": 245,
+        "totalPatients": 189
+      }
+    },
+    "doctor_002": {
+      "profile": {
+        "avatar": "https://example.com/avatar2.jpg",
+        "bio": "Specialized neurologist focusing on brain and nervous system disorders",
+        "createdAt": "2025-01-01T00:00:00Z",
+        "department": "neurology",
+        "email": "sarah.johnson@medicare.com",
+        "experience": "12 years experience",
+        "isActive": true,
+        "licenseNumber": "MD789012",
+        "name": "Dr. Sarah Johnson",
+        "phoneNumber": "+1555123457",
+        "qualification": "MBBS, MD Neurology",
+        "specialty": "Neurologist",
+        "status": "available"
+      },
+      "schedule": {
+        "monday": {
+          "endTime": "16:30",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": false,
+              "bookedBy": "bylekKK9S6PafQEvvMJB0XSJ1pA3",
+              "duration": 30,
+              "time": "10:00 AM",
+              "updatedAt": "2025-08-18T19:04:01.308Z"
+            },
+            "slot3": {
+              "available": false,
+              "bookedBy": "QHf9lD7phRQBgV4m1twOvLeqIW92",
+              "duration": 30,
+              "time": "11:30 AM",
+              "updatedAt": "2025-08-18T19:42:21.562Z"
+            },
+            "slot4": {
+              "available": false,
+              "bookedBy": "QHf9lD7phRQBgV4m1twOvLeqIW92",
+              "duration": 30,
+              "time": "01:00 PM",
+              "updatedAt": "2025-08-18T19:44:25.967Z"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "03:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "04:30 PM"
+            }
+          }
+        }
+      },
+      "stats": {
+        "rating": 4.9,
+        "reviewCount": 52,
+        "totalAppointments": 189,
+        "totalPatients": 145
+      }
+    },
+    "doctor_003": {
+      "profile": {
+        "avatar": "https://example.com/avatar3.jpg",
+        "bio": "Expert orthopedic surgeon specializing in joint replacement and sports medicine",
+        "createdAt": "2025-01-01T00:00:00Z",
+        "department": "orthopedics",
+        "email": "michael.brown@medicare.com",
+        "experience": "18 years experience",
+        "isActive": true,
+        "licenseNumber": "MD345678",
+        "name": "Dr. Michael Brown",
+        "phoneNumber": "+1555123458",
+        "qualification": "MBBS, MS Orthopedics",
+        "specialty": "Orthopedic Surgeon",
+        "status": "available"
+      },
+      "schedule": {
+        "monday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "18:00",
+          "isAvailable": true,
+          "startTime": "08:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "03:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "04:30 PM"
+            }
+          }
+        },
+        "tuesday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "18:00",
+          "isAvailable": true,
+          "startTime": "08:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "03:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "04:30 PM"
+            }
+          }
+        },
+        "wednesday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "18:00",
+          "isAvailable": true,
+          "startTime": "08:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "03:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "04:30 PM"
+            }
+          }
+        },
+        "thursday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "18:00",
+          "isAvailable": true,
+          "startTime": "08:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "03:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "04:30 PM"
+            }
+          }
+        },
+        "friday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "17:00",
+          "isAvailable": true,
+          "startTime": "08:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "03:00 PM"
+            }
+          }
+        }
+      },
+      "stats": {
+        "rating": 4.7,
+        "reviewCount": 89,
+        "totalAppointments": 312,
+        "totalPatients": 278
+      }
+    },
+    "doctor_004": {
+      "profile": {
+        "avatar": "https://example.com/avatar4.jpg",
+        "bio": "Dedicated pediatrician with expertise in child development and preventive care",
+        "createdAt": "2025-01-01T00:00:00Z",
+        "department": "pediatrics",
+        "email": "emily.davis@medicare.com",
+        "experience": "10 years experience",
+        "isActive": true,
+        "licenseNumber": "MD456789",
+        "name": "Dr. Emily Davis",
+        "phoneNumber": "+1555123459",
+        "qualification": "MBBS, MD Pediatrics",
+        "specialty": "Pediatrician",
+        "status": "available"
+      },
+      "schedule": {
+        "monday": {
+          "breakTime": {
+            "end": "12:30",
+            "start": "11:30"
+          },
+          "endTime": "16:30",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "12:30 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            }
+          }
+        },
+        "tuesday": {
+          "breakTime": {
+            "end": "12:30",
+            "start": "11:30"
+          },
+          "endTime": "16:30",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "12:30 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            }
+          }
+        },
+        "wednesday": {
+          "breakTime": {
+            "end": "12:30",
+            "start": "11:30"
+          },
+          "endTime": "16:30",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "12:30 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            }
+          }
+        },
+        "thursday": {
+          "breakTime": {
+            "end": "12:30",
+            "start": "11:30"
+          },
+          "endTime": "16:30",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "12:30 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            }
+          }
+        },
+        "friday": {
+          "breakTime": {
+            "end": "12:30",
+            "start": "11:30"
+          },
+          "endTime": "15:30",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "12:30 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:00 PM"
+            }
+          }
+        }
+      },
+      "stats": {
+        "rating": 4.9,
+        "reviewCount": 134,
+        "totalAppointments": 456,
+        "totalPatients": 389
+      }
+    },
+    "doctor_005": {
+      "profile": {
+        "avatar": "https://example.com/avatar5.jpg",
+        "bio": "Board-certified dermatologist specializing in medical and cosmetic dermatology",
+        "createdAt": "2025-01-01T00:00:00Z",
+        "department": "dermatology",
+        "email": "david.wilson@medicare.com",
+        "experience": "14 years experience",
+        "isActive": true,
+        "licenseNumber": "MD567890",
+        "name": "Dr. David Wilson",
+        "phoneNumber": "+1555123460",
+        "qualification": "MBBS, MD Dermatology",
+        "specialty": "Dermatologist",
+        "status": "available"
+      },
+      "schedule": {
+        "monday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "17:30",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "tuesday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "17:30",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "wednesday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "17:30",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "thursday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "17:30",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "04:00 PM"
+            }
+          }
+        }
+      },
+      "stats": {
+        "rating": 4.6,
+        "reviewCount": 78,
+        "totalAppointments": 267,
+        "totalPatients": 234
+      }
+    },
+    "doctor_006": {
+      "profile": {
+        "avatar": "https://example.com/avatar6.jpg",
+        "bio": "Compassionate psychiatrist specializing in anxiety, depression, and trauma therapy",
+        "createdAt": "2025-01-01T00:00:00Z",
+        "department": "psychiatry",
+        "email": "lisa.martinez@medicare.com",
+        "experience": "16 years experience",
+        "isActive": true,
+        "licenseNumber": "MD678901",
+        "name": "Dr. Lisa Martinez",
+        "phoneNumber": "+1555123461",
+        "qualification": "MBBS, MD Psychiatry",
+        "specialty": "Psychiatrist",
+        "status": "available"
+      },
+      "schedule": {
+        "monday": {
+          "breakTime": {
+            "end": "14:00",
+            "start": "13:00"
+          },
+          "endTime": "19:00",
+          "isAvailable": true,
+          "startTime": "10:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 60,
+              "time": "10:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 60,
+              "time": "11:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 60,
+              "time": "12:00 PM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 60,
+              "time": "02:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 60,
+              "time": "03:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 60,
+              "time": "04:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 60,
+              "time": "05:00 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 60,
+              "time": "06:00 PM"
+            }
+          }
+        },
+        "tuesday": {
+          "breakTime": {
+            "end": "14:00",
+            "start": "13:00"
+          },
+          "endTime": "19:00",
+          "isAvailable": true,
+          "startTime": "10:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 60,
+              "time": "10:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 60,
+              "time": "11:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 60,
+              "time": "12:00 PM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 60,
+              "time": "02:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 60,
+              "time": "03:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 60,
+              "time": "04:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 60,
+              "time": "05:00 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 60,
+              "time": "06:00 PM"
+            }
+          }
+        },
+        "wednesday": {
+          "breakTime": {
+            "end": "14:00",
+            "start": "13:00"
+          },
+          "endTime": "19:00",
+          "isAvailable": true,
+          "startTime": "10:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 60,
+              "time": "10:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 60,
+              "time": "11:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 60,
+              "time": "12:00 PM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 60,
+              "time": "02:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 60,
+              "time": "03:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 60,
+              "time": "04:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 60,
+              "time": "05:00 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 60,
+              "time": "06:00 PM"
+            }
+          }
+        },
+        "thursday": {
+          "breakTime": {
+            "end": "14:00",
+            "start": "13:00"
+          },
+          "endTime": "19:00",
+          "isAvailable": true,
+          "startTime": "10:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 60,
+              "time": "10:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 60,
+              "time": "11:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 60,
+              "time": "12:00 PM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 60,
+              "time": "02:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 60,
+              "time": "03:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 60,
+              "time": "04:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 60,
+              "time": "05:00 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 60,
+              "time": "06:00 PM"
+            }
+          }
+        }
+      },
+      "stats": {
+        "rating": 4.8,
+        "reviewCount": 96,
+        "totalAppointments": 324,
+        "totalPatients": 198
+      }
+    },
+    "doctor_007": {
+      "profile": {
+        "avatar": "https://example.com/avatar7.jpg",
+        "bio": "Experienced gastroenterologist specializing in digestive disorders and endoscopic procedures",
+        "createdAt": "2025-01-01T00:00:00Z",
+        "department": "gastroenterology",
+        "email": "robert.garcia@medicare.com",
+        "experience": "20 years experience",
+        "isActive": true,
+        "licenseNumber": "MD789123",
+        "name": "Dr. Robert Garcia",
+        "phoneNumber": "+1555123462",
+        "qualification": "MBBS, MD Gastroenterology",
+        "specialty": "Gastroenterologist",
+        "status": "available"
+      },
+      "schedule": {
+        "monday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "17:30",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "11:30 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 30,
+              "time": "04:30 PM"
+            }
+          }
+        },
+        "tuesday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "17:30",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "11:30 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 30,
+              "time": "04:30 PM"
+            }
+          }
+        },
+        "wednesday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "17:30",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "11:30 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 30,
+              "time": "04:30 PM"
+            }
+          }
+        },
+        "friday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "16:30",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "11:30 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            }
+          }
+        }
+      },
+      "stats": {
+        "rating": 4.7,
+        "reviewCount": 112,
+        "totalAppointments": 398,
+        "totalPatients": 334
+      }
+    },
+    "doctor_008": {
+      "profile": {
+        "avatar": "https://example.com/avatar8.jpg",
+        "bio": "Skilled ophthalmologist specializing in cataract surgery and retinal diseases",
+        "createdAt": "2025-01-01T00:00:00Z",
+        "department": "ophthalmology",
+        "email": "jennifer.lee@medicare.com",
+        "experience": "13 years experience",
+        "isActive": true,
+        "licenseNumber": "MD890234",
+        "name": "Dr. Jennifer Lee",
+        "phoneNumber": "+1555123463",
+        "qualification": "MBBS, MS Ophthalmology",
+        "specialty": "Ophthalmologist",
+        "status": "available"
+      },
+      "schedule": {
+        "monday": {
+          "breakTime": {
+            "end": "12:30",
+            "start": "11:30"
+          },
+          "endTime": "16:00",
+          "isAvailable": true,
+          "startTime": "08:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "12:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            }
+          }
+        },
+        "tuesday": {
+          "breakTime": {
+            "end": "12:30",
+            "start": "11:30"
+          },
+          "endTime": "16:00",
+          "isAvailable": true,
+          "startTime": "08:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "12:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            }
+          }
+        },
+        "wednesday": {
+          "breakTime": {
+            "end": "12:30",
+            "start": "11:30"
+          },
+          "endTime": "16:00",
+          "isAvailable": true,
+          "startTime": "08:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "12:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            }
+          }
+        },
+        "thursday": {
+          "breakTime": {
+            "end": "12:30",
+            "start": "11:30"
+          },
+          "endTime": "16:00",
+          "isAvailable": true,
+          "startTime": "08:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "12:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 30,
+              "time": "03:30 PM"
+            }
+          }
+        },
+        "friday": {
+          "breakTime": {
+            "end": "12:30",
+            "start": "11:30"
+          },
+          "endTime": "15:00",
+          "isAvailable": true,
+          "startTime": "08:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "08:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "12:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "01:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "02:30 PM"
+            }
+          }
+        }
+      },
+      "stats": {
+        "rating": 4.8,
+        "reviewCount": 87,
+        "totalAppointments": 301,
+        "totalPatients": 267
+      }
+    },
+    "doctor_009": {
+      "profile": {
+        "avatar": "https://example.com/avatar9.jpg",
+        "bio": "Dedicated gynecologist with expertise in women's health and reproductive medicine",
+        "createdAt": "2025-01-01T00:00:00Z",
+        "department": "gynecology",
+        "email": "amanda.taylor@medicare.com",
+        "experience": "11 years experience",
+        "isActive": true,
+        "licenseNumber": "MD901345",
+        "name": "Dr. Amanda Taylor",
+        "phoneNumber": "+1555123464",
+        "qualification": "MBBS, MD Gynecology",
+        "specialty": "Gynecologist",
+        "status": "available"
+      },
+      "schedule": {
+        "monday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "17:00",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "03:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "tuesday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "17:00",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "03:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "wednesday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "17:00",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "03:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "thursday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "17:00",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "03:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 30,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "friday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "16:00",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 30,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 30,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 30,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 30,
+              "time": "01:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 30,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 30,
+              "time": "03:00 PM"
+            }
+          }
+        }
+      },
+      "stats": {
+        "rating": 4.9,
+        "reviewCount": 143,
+        "totalAppointments": 512,
+        "totalPatients": 423
+      }
+    },
+    "doctor_010": {
+      "profile": {
+        "avatar": "https://example.com/avatar10.jpg",
+        "bio": "Leading oncologist specializing in cancer diagnosis, treatment, and patient care",
+        "createdAt": "2025-01-01T00:00:00Z",
+        "department": "oncology",
+        "email": "thomas.anderson@medicare.com",
+        "experience": "22 years experience",
+        "isActive": true,
+        "licenseNumber": "MD012456",
+        "name": "Dr. Thomas Anderson",
+        "phoneNumber": "+1555123465",
+        "qualification": "MBBS, MD Oncology, Fellowship in Medical Oncology",
+        "specialty": "Medical Oncologist",
+        "status": "available"
+      },
+      "schedule": {
+        "monday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "18:00",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 45,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 45,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 45,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 45,
+              "time": "11:30 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 45,
+              "time": "01:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 45,
+              "time": "02:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 45,
+              "time": "03:30 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 45,
+              "time": "04:30 PM"
+            }
+          }
+        },
+        "tuesday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "18:00",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 45,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 45,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 45,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 45,
+              "time": "11:30 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 45,
+              "time": "01:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 45,
+              "time": "02:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 45,
+              "time": "03:30 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 45,
+              "time": "04:30 PM"
+            }
+          }
+        },
+        "wednesday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "18:00",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 45,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 45,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 45,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 45,
+              "time": "11:30 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 45,
+              "time": "01:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 45,
+              "time": "02:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 45,
+              "time": "03:30 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 45,
+              "time": "04:30 PM"
+            }
+          }
+        },
+        "thursday": {
+          "breakTime": {
+            "end": "13:30",
+            "start": "12:30"
+          },
+          "endTime": "18:00",
+          "isAvailable": true,
+          "startTime": "08:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 45,
+              "time": "08:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 45,
+              "time": "09:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 45,
+              "time": "10:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 45,
+              "time": "11:30 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 45,
+              "time": "01:30 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 45,
+              "time": "02:30 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 45,
+              "time": "03:30 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 45,
+              "time": "04:30 PM"
+            }
+          }
+        }
+      },
+      "stats": {
+        "rating": 4.9,
+        "reviewCount": 156,
+        "totalAppointments": 478,
+        "totalPatients": 312
+      }
+    },
+    "doctor_011": {
+      "profile": {
+        "avatar": "https://example.com/avatar11.jpg",
+        "bio": "Radiation oncologist specializing in advanced radiation therapy techniques",
+        "createdAt": "2025-01-01T00:00:00Z",
+        "department": "oncology",
+        "email": "maria.rodriguez@medicare.com",
+        "experience": "17 years experience",
+        "isActive": true,
+        "licenseNumber": "MD123567",
+        "name": "Dr. Maria Rodriguez",
+        "phoneNumber": "+1555123466",
+        "qualification": "MBBS, MD Radiation Oncology",
+        "specialty": "Radiation Oncologist",
+        "status": "available"
+      },
+      "schedule": {
+        "monday": {
+          "breakTime": {
+            "end": "14:00",
+            "start": "13:00"
+          },
+          "endTime": "17:30",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 45,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 45,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 45,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 45,
+              "time": "12:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 45,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 45,
+              "time": "03:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 45,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "tuesday": {
+          "breakTime": {
+            "end": "14:00",
+            "start": "13:00"
+          },
+          "endTime": "17:30",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 45,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 45,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 45,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 45,
+              "time": "12:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 45,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 45,
+              "time": "03:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 45,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "wednesday": {
+          "breakTime": {
+            "end": "14:00",
+            "start": "13:00"
+          },
+          "endTime": "17:30",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 45,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 45,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 45,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 45,
+              "time": "12:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 45,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 45,
+              "time": "03:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 45,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "thursday": {
+          "breakTime": {
+            "end": "14:00",
+            "start": "13:00"
+          },
+          "endTime": "17:30",
+          "isAvailable": true,
+          "startTime": "09:00",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 45,
+              "time": "09:00 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 45,
+              "time": "10:00 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 45,
+              "time": "11:00 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 45,
+              "time": "12:00 PM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 45,
+              "time": "02:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 45,
+              "time": "03:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 45,
+              "time": "04:00 PM"
+            }
+          }
+        }
+      },
+      "stats": {
+        "rating": 4.8,
+        "reviewCount": 94,
+        "totalAppointments": 287,
+        "totalPatients": 201
+      }
+    },
+    "doctor_012": {
+      "profile": {
+        "avatar": "https://example.com/avatar12.jpg",
+        "bio": "Surgical oncologist specializing in complex tumor resections and minimally invasive procedures",
+        "createdAt": "2025-01-01T00:00:00Z",
+        "department": "oncology",
+        "email": "christopher.white@medicare.com",
+        "experience": "19 years experience",
+        "isActive": true,
+        "licenseNumber": "MD234678",
+        "name": "Dr. Christopher White",
+        "phoneNumber": "+1555123467",
+        "qualification": "MBBS, MS Surgery, Fellowship in Surgical Oncology",
+        "specialty": "Surgical Oncologist",
+        "status": "available"
+      },
+      "schedule": {
+        "monday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "18:30",
+          "isAvailable": true,
+          "startTime": "07:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 60,
+              "time": "07:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 60,
+              "time": "08:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 60,
+              "time": "09:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 60,
+              "time": "10:30 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 60,
+              "time": "01:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 60,
+              "time": "02:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 60,
+              "time": "03:00 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 60,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "tuesday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "18:30",
+          "isAvailable": true,
+          "startTime": "07:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 60,
+              "time": "07:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 60,
+              "time": "08:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 60,
+              "time": "09:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 60,
+              "time": "10:30 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 60,
+              "time": "01:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 60,
+              "time": "02:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 60,
+              "time": "03:00 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 60,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "wednesday": {
+          "isAvailable": false
+        },
+        "thursday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "18:30",
+          "isAvailable": true,
+          "startTime": "07:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 60,
+              "time": "07:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 60,
+              "time": "08:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 60,
+              "time": "09:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 60,
+              "time": "10:30 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 60,
+              "time": "01:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 60,
+              "time": "02:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 60,
+              "time": "03:00 PM"
+            },
+            "slot8": {
+              "available": true,
+              "duration": 60,
+              "time": "04:00 PM"
+            }
+          }
+        },
+        "friday": {
+          "breakTime": {
+            "end": "13:00",
+            "start": "12:00"
+          },
+          "endTime": "17:00",
+          "isAvailable": true,
+          "startTime": "07:30",
+          "timeSlots": {
+            "slot1": {
+              "available": true,
+              "duration": 60,
+              "time": "07:30 AM"
+            },
+            "slot2": {
+              "available": true,
+              "duration": 60,
+              "time": "08:30 AM"
+            },
+            "slot3": {
+              "available": true,
+              "duration": 60,
+              "time": "09:30 AM"
+            },
+            "slot4": {
+              "available": true,
+              "duration": 60,
+              "time": "10:30 AM"
+            },
+            "slot5": {
+              "available": true,
+              "duration": 60,
+              "time": "01:00 PM"
+            },
+            "slot6": {
+              "available": true,
+              "duration": 60,
+              "time": "02:00 PM"
+            },
+            "slot7": {
+              "available": true,
+              "duration": 60,
+              "time": "03:00 PM"
+            }
+          }
+        }
+      },
+      "stats": {
+        "rating": 4.9,
+        "reviewCount": 127,
+        "totalAppointments": 398,
+        "totalPatients": 289
+      }
+    }
+  },
+  "globalSettings": {
+    "appointmentSettings": {
+      "bufferTime": 15,
+      "cancellationPolicy": {
+        "minNoticeHours": 24,
+        "penaltyFee": 25
+      },
+      "maxAdvanceBooking": 90,
+      "minAdvanceBooking": 1,
+      "slotDuration": 30
+    },
+    "chatSettings": {
+      "autoResponseDelay": 1000,
+      "autoResponseEnabled": true,
+      "autoResponseMessage": "Hello! Welcome to MediCare Hospital support. How can I help you today?",
+      "escalationRules": {
+        "keywords": [
+          "emergency",
+          "urgent",
+          "pain",
+          "bleeding"
+        ],
+        "maxWaitTime": 900,
+        "responseTimeThreshold": 300
+      },
+      "maxConcurrentChats": 5,
+      "offlineMessage": "Our support team is currently offline. Please leave a message and we'll get back to you soon.",
+      "operatingHours": {
+        "friday": {
+          "end": "20:00",
+          "start": "08:00"
+        },
+        "monday": {
+          "end": "20:00",
+          "start": "08:00"
+        },
+        "saturday": {
+          "end": "18:00",
+          "start": "09:00"
+        },
+        "sunday": {
+          "end": "16:00",
+          "start": "10:00"
+        },
+        "thursday": {
+          "end": "20:00",
+          "start": "08:00"
+        },
+        "tuesday": {
+          "end": "20:00",
+          "start": "08:00"
+        },
+        "wednesday": {
+          "end": "20:00",
+          "start": "08:00"
+        }
+      }
+    },
+    "hospitalInfo": {
+      "address": "123 Health St, Medical City",
+      "email": "info@medicare.com",
+      "emergencyPhone": "+8801300723307",
+      "name": "MediCare Hospital",
+      "operatingHours": {
+        "friday": {
+          "close": "22:00",
+          "open": "06:00"
+        },
+        "monday": {
+          "close": "22:00",
+          "open": "06:00"
+        },
+        "saturday": {
+          "close": "20:00",
+          "open": "08:00"
+        },
+        "sunday": {
+          "close": "18:00",
+          "open": "08:00"
+        },
+        "thursday": {
+          "close": "22:00",
+          "open": "06:00"
+        },
+        "tuesday": {
+          "close": "22:00",
+          "open": "06:00"
+        },
+        "wednesday": {
+          "close": "22:00",
+          "open": "06:00"
+        }
+      },
+      "phone": "+8801300723307",
+      "website": "https://medicare.com"
+    }
+  },
+  "users": {
+    "Djw4QXZP7ycaI71xHepgfdgZ6jp2": {
+      "appointments": {
+        "-OXyokkLd4HA6Oy-K9bi": {
+          "appointmentDetails": {
+            "date": "08/19/2025",
+            "duration": 30,
+            "location": "MediCare Hospital, Main Building",
+            "roomNumber": "A-101",
+            "status": "upcoming",
+            "timeSlot": "11:00 AM",
+            "type": "consultation"
+          },
+          "doctorId": "doctor_001",
+          "id": "-OXyokkLd4HA6Oy-K9bi",
+          "notes": {
+            "adminNotes": "",
+            "doctorNotes": "",
+            "patientNotes": "test"
+          },
+          "patientInfo": {
+            "email": "pocicey887@futebr.com",
+            "name": "Nayeem",
+            "phoneNumber": "01300723307",
+            "priority": "normal",
+            "reasonForVisit": "test"
+          },
+          "reminders": {
+            "emailReminder": true,
+            "sent24h": false,
+            "sent2h": false,
+            "smsReminder": true
+          },
+          "timestamps": {
+            "createdAt": "2025-08-18T20:15:59.041Z",
+            "scheduledAt": "2025-08-18T20:15:59.041Z",
+            "updatedAt": "2025-08-18T20:15:59.041Z"
+          }
+        }
+      },
+      "chatSupport": {
+        "conversations": {
+          "-OXyphJ5JSPhOgMZC9QD": {
+            "conversationInfo": {
+              "category": "general",
+              "language": "en",
+              "priority": "normal",
+              "status": "active",
+              "subject": "General Support",
+              "type": "general"
+            },
+            "id": "-OXyphJ5JSPhOgMZC9QD",
+            "metadata": {
+              "escalated": false,
+              "tags": [
+                "general",
+                "support"
+              ]
+            },
+            "participants": {
+              "supportAgent": "agent_001"
+            },
+            "timestamps": {
+              "createdAt": "2025-08-18T20:20:07.089Z",
+              "lastMessageAt": "2025-08-18T20:20:07.628Z",
+              "updatedAt": "2025-08-18T20:20:07.628Z"
+            }
+          },
+          "-OXyphJ6qbsujABw6M2c": {
+            "conversationInfo": {
+              "category": "general",
+              "language": "en",
+              "priority": "normal",
+              "status": "active",
+              "subject": "General Support",
+              "type": "general"
+            },
+            "id": "-OXyphJ6qbsujABw6M2c",
+            "metadata": {
+              "escalated": false,
+              "tags": [
+                "general",
+                "support"
+              ]
+            },
+            "participants": {
+              "supportAgent": "agent_001"
+            },
+            "timestamps": {
+              "createdAt": "2025-08-18T20:20:07.090Z",
+              "lastMessageAt": "2025-08-18T20:40:50.539Z",
+              "updatedAt": "2025-08-18T20:40:50.539Z"
+            }
+          },
+          "-OXyt9saY8nETz1o-eGW": {
+            "conversationInfo": {
+              "category": "general",
+              "language": "en",
+              "priority": "normal",
+              "status": "active",
+              "subject": "General Support",
+              "type": "general"
+            },
+            "id": "-OXyt9saY8nETz1o-eGW",
+            "metadata": {
+              "escalated": false,
+              "tags": [
+                "general",
+                "support"
+              ]
+            },
+            "participants": {
+              "supportAgent": "agent_001"
+            },
+            "timestamps": {
+              "createdAt": "2025-08-18T20:35:14.651Z",
+              "lastMessageAt": "2025-08-18T20:35:15.182Z",
+              "updatedAt": "2025-08-18T20:35:15.182Z"
+            }
+          }
+        },
+        "messages": {
+          "-OXyphJ5JSPhOgMZC9QD": {
+            "-OXyphNLy1eXBzHFhLOM": {
+              "content": {
+                "text": "Hello! Welcome to MediCare Hospital support. How can I help you today?",
+                "type": "text"
+              },
+              "id": "-OXyphNLy1eXBzHFhLOM",
+              "isEdited": false,
+              "senderId": "agent_001",
+              "senderType": "support",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T20:20:07.361Z",
+                "sentAt": "2025-08-18T20:20:07.361Z"
+              }
+            }
+          },
+          "-OXyphJ6qbsujABw6M2c": {
+            "-OXyphNP8ZJcGo1w8Xr9": {
+              "content": {
+                "text": "Hello! Welcome to MediCare Hospital support. How can I help you today?",
+                "type": "text"
+              },
+              "id": "-OXyphNP8ZJcGo1w8Xr9",
+              "isEdited": false,
+              "senderId": "agent_001",
+              "senderType": "support",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T20:20:07.365Z",
+                "sentAt": "2025-08-18T20:20:07.365Z"
+              }
+            },
+            "-OXyplcuLTIKvKUR-9T9": {
+              "content": {
+                "text": "hi",
+                "type": "text"
+              },
+              "id": "-OXyplcuLTIKvKUR-9T9",
+              "isEdited": false,
+              "senderId": "Djw4QXZP7ycaI71xHepgfdgZ6jp2",
+              "senderType": "patient",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T20:20:24.805Z",
+                "sentAt": "2025-08-18T20:20:24.805Z"
+              }
+            },
+            "-OXypmRBlBoxrLe1fsdu": {
+              "content": {
+                "text": "Let me check our system and get back to you with the best solution.",
+                "type": "text"
+              },
+              "id": "-OXypmRBlBoxrLe1fsdu",
+              "isEdited": false,
+              "senderId": "agent_001",
+              "senderType": "support",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T20:20:28.087Z",
+                "sentAt": "2025-08-18T20:20:28.087Z"
+              }
+            },
+            "-OXypp_tWmGblJusZpxB": {
+              "content": {
+                "text": "I need some help",
+                "type": "text"
+              },
+              "id": "-OXypp_tWmGblJusZpxB",
+              "isEdited": false,
+              "senderId": "Djw4QXZP7ycaI71xHepgfdgZ6jp2",
+              "senderType": "patient",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T20:20:40.996Z",
+                "sentAt": "2025-08-18T20:20:40.996Z"
+              }
+            },
+            "-OXypqQ3vRi4a6L3SAg8": {
+              "content": {
+                "text": "That's a great question. Let me provide you with the information you need.",
+                "type": "text"
+              },
+              "id": "-OXypqQ3vRi4a6L3SAg8",
+              "isEdited": false,
+              "senderId": "agent_001",
+              "senderType": "support",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T20:20:44.399Z",
+                "sentAt": "2025-08-18T20:20:44.399Z"
+              }
+            },
+            "-OXyuQxoXkI12V3NGs6_": {
+              "content": {
+                "text": "Now any doctor present",
+                "type": "text"
+              },
+              "id": "-OXyuQxoXkI12V3NGs6_",
+              "isEdited": false,
+              "senderId": "Djw4QXZP7ycaI71xHepgfdgZ6jp2",
+              "senderType": "patient",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T20:40:46.762Z",
+                "sentAt": "2025-08-18T20:40:46.762Z"
+              }
+            },
+            "-OXyuRofM7qkt3ht4OMX": {
+              "content": {
+                "text": "That's a great question. Let me provide you with the information you need.",
+                "type": "text"
+              },
+              "id": "-OXyuRofM7qkt3ht4OMX",
+              "isEdited": false,
+              "senderId": "agent_001",
+              "senderType": "support",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T20:40:50.272Z",
+                "sentAt": "2025-08-18T20:40:50.272Z"
+              }
+            }
+          },
+          "-OXyt9saY8nETz1o-eGW": {
+            "-OXyt9wjWr9KQ4w--2UI": {
+              "content": {
+                "text": "Hello! Welcome to MediCare Hospital support. How can I help you today?",
+                "type": "text"
+              },
+              "id": "-OXyt9wjWr9KQ4w--2UI",
+              "isEdited": false,
+              "senderId": "agent_001",
+              "senderType": "support",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T20:35:14.917Z",
+                "sentAt": "2025-08-18T20:35:14.917Z"
+              }
+            }
+          }
+        }
+      },
+      "prescriptions": {
+        "-OXypBm_NQizGdn6Djnf": {
+          "appointmentId": "",
+          "doctorId": "demo_doctor_123",
+          "documents": {
+            "doc1": {
+              "fileName": "Perticipant_per_class.jpg",
+              "fileSize": "0.04MB",
+              "fileType": "image/jpeg",
+              "fileUrl": "https://storage.example.com/prescriptions/Perticipant_per_class.jpg",
+              "uploadedAt": "2025-08-18T20:17:53.871Z"
+            }
+          },
+          "id": "-OXypBm_NQizGdn6Djnf",
+          "notes": "lab report",
+          "prescriptionDetails": {
+            "expiryDate": "2025-11-16",
+            "instructions": "lab report",
+            "prescribedDate": "2025-08-21",
+            "status": "active",
+            "title": "lab-report - 8/21/2025",
+            "type": "lab-report"
+          },
+          "timestamps": {
+            "createdAt": "2025-08-18T20:17:53.872Z",
+            "updatedAt": "2025-08-18T20:19:09.645Z"
+          },
+          "updatedAt": "2025-08-18T20:19:09.645Z"
+        },
+        "-OXytP8uvha8LRTVvOMz": {
+          "appointmentId": "",
+          "doctorId": "doctor_001",
+          "documents": {
+            "doc1": {
+              "fileName": "image.png",
+              "fileSize": "0.04MB",
+              "fileType": "image/png",
+              "fileUrl": "https://storage.example.com/prescriptions/image.png",
+              "uploadedAt": "2025-08-18T20:36:18.274Z"
+            }
+          },
+          "id": "-OXytP8uvha8LRTVvOMz",
+          "notes": "asdfasd",
+          "prescriptionDetails": {
+            "expiryDate": "2025-11-16",
+            "instructions": "asdfasd",
+            "prescribedDate": "2025-08-27",
+            "status": "active",
+            "title": "medication - 8/27/2025",
+            "type": "medication"
+          },
+          "timestamps": {
+            "createdAt": "2025-08-18T20:36:18.274Z",
+            "updatedAt": "2025-08-18T20:36:18.274Z"
+          }
+        },
+        "-OXyuXC0zczBPMW_rmlo": {
+          "appointmentId": "",
+          "doctorId": "doctor_001",
+          "documents": {
+            "doc1": {
+              "fileName": "logo_3.png",
+              "fileSize": "0.01MB",
+              "fileType": "image/png",
+              "fileUrl": "https://storage.example.com/prescriptions/logo_3.png",
+              "uploadedAt": "2025-08-18T20:41:13.385Z"
+            }
+          },
+          "id": "-OXyuXC0zczBPMW_rmlo",
+          "notes": "rtrtrt",
+          "prescriptionDetails": {
+            "expiryDate": "2025-11-16",
+            "instructions": "rtrtrt",
+            "prescribedDate": "2025-08-23",
+            "status": "active",
+            "title": "medication - 8/23/2025",
+            "type": "medication"
+          },
+          "timestamps": {
+            "createdAt": "2025-08-18T20:41:13.385Z",
+            "updatedAt": "2025-08-18T20:41:13.385Z"
+          }
+        }
+      },
+      "profile": {
+        "address": {
+          "city": "",
+          "country": "",
+          "state": "",
+          "street": "",
+          "zipCode": ""
+        },
+        "dateOfBirth": "2000-11-03",
+        "displayName": "Nayeem",
+        "emergencyContact": {
+          "name": "",
+          "phoneNumber": "",
+          "relationship": ""
+        },
+        "gender": "male",
+        "lastLoginAt": "2025-08-18T20:39:47.628Z",
+        "phoneNumber": "01300723307",
+        "updatedAt": "2025-08-18T20:32:47.167Z"
+      },
+      "systemSettings": {
+        "notifications": {
+          "appointmentReminders": true,
+          "emailNotifications": true,
+          "marketingEmails": false,
+          "prescriptionReminders": true,
+          "pushNotifications": true,
+          "smsNotifications": true
+        },
+        "preferences": {
+          "dateFormat": "MM/DD/YYYY",
+          "language": "en",
+          "timeFormat": "12h",
+          "timezone": "UTC"
+        },
+        "privacy": {
+          "allowCommunicationFromDoctors": true,
+          "profileVisibility": "private",
+          "shareDataForResearch": false
+        }
+      }
+    },
+    "QHf9lD7phRQBgV4m1twOvLeqIW92": {
+      "appointments": {
+        "-OXyh2qZ-IRwTR71s1Y-": {
+          "appointmentDetails": {
+            "date": "08/19/2025",
+            "duration": 30,
+            "location": "MediCare Hospital, Main Building",
+            "roomNumber": "A-101",
+            "status": "cancelled",
+            "timeSlot": "11:30 AM",
+            "type": "consultation"
+          },
+          "doctorId": "doctor_002",
+          "id": "-OXyh2qZ-IRwTR71s1Y-",
+          "notes": {
+            "adminNotes": "",
+            "doctorNotes": "",
+            "patientNotes": "test"
+          },
+          "patientInfo": {
+            "email": "majif46768@gardsiir.com",
+            "name": "Mr Ahsan",
+            "phoneNumber": "1869425465",
+            "priority": "normal",
+            "reasonForVisit": "test"
+          },
+          "reminders": {
+            "emailReminder": true,
+            "sent24h": false,
+            "sent2h": false,
+            "smsReminder": true
+          },
+          "timestamps": {
+            "cancelledAt": "2025-08-18T19:43:25.601Z",
+            "createdAt": "2025-08-18T19:42:21.209Z",
+            "scheduledAt": "2025-08-18T19:42:21.208Z",
+            "updatedAt": "2025-08-18T19:43:25.601Z"
+          },
+          "updatedAt": "2025-08-18T19:43:25.601Z"
+        },
+        "-OXyhXDOien0vlAbsZLH": {
+          "appointmentDetails": {
+            "date": "08/19/2025",
+            "duration": 30,
+            "location": "MediCare Hospital, Main Building",
+            "roomNumber": "A-101",
+            "status": "upcoming",
+            "timeSlot": "01:00 PM",
+            "type": "consultation"
+          },
+          "doctorId": "doctor_002",
+          "id": "-OXyhXDOien0vlAbsZLH",
+          "notes": {
+            "adminNotes": "",
+            "doctorNotes": "",
+            "patientNotes": "test2"
+          },
+          "patientInfo": {
+            "email": "majif46768@gardsiir.com",
+            "name": "Mr Ahsan",
+            "phoneNumber": "1869425465",
+            "priority": "normal",
+            "reasonForVisit": "test2"
+          },
+          "reminders": {
+            "emailReminder": true,
+            "sent24h": false,
+            "sent2h": false,
+            "smsReminder": true
+          },
+          "timestamps": {
+            "createdAt": "2025-08-18T19:44:25.614Z",
+            "scheduledAt": "2025-08-18T19:44:25.614Z",
+            "updatedAt": "2025-08-18T19:44:25.614Z"
+          }
+        }
+      },
+      "profile": {
+        "address": {
+          "city": "",
+          "country": "",
+          "state": "",
+          "street": "",
+          "zipCode": ""
+        },
+        "dateOfBirth": "",
+        "displayName": "Mr Ahsan abx",
+        "emergencyContact": {
+          "name": "",
+          "phoneNumber": "",
+          "relationship": ""
+        },
+        "gender": "",
+        "phoneNumber": "",
+        "updatedAt": "2025-08-18T19:40:55.753Z"
+      },
+      "systemSettings": {
+        "notifications": {
+          "appointmentReminders": true,
+          "emailNotifications": true,
+          "marketingEmails": false,
+          "prescriptionReminders": true,
+          "pushNotifications": true,
+          "smsNotifications": true
+        },
+        "preferences": {
+          "dateFormat": "MM/DD/YYYY",
+          "language": "en",
+          "timeFormat": "12h",
+          "timezone": "UTC"
+        },
+        "privacy": {
+          "allowCommunicationFromDoctors": true,
+          "profileVisibility": "private",
+          "shareDataForResearch": false
+        }
+      }
+    },
+    "bylekKK9S6PafQEvvMJB0XSJ1pA3": {
+      "appointments": {
+        "-OXyZHFwBSyOVBa4C5kb": {
+          "appointmentDetails": {
+            "date": "08/19/2025",
+            "duration": 30,
+            "location": "MediCare Hospital, Main Building",
+            "roomNumber": "A-101",
+            "status": "cancelled",
+            "timeSlot": "10:00 AM",
+            "type": "consultation"
+          },
+          "doctorId": "doctor_002",
+          "id": "-OXyZHFwBSyOVBa4C5kb",
+          "notes": {
+            "adminNotes": "",
+            "doctorNotes": "",
+            "patientNotes": "asdfasdfas"
+          },
+          "patientInfo": {
+            "email": "fornabilphysics@proton.me",
+            "name": "John Doe2",
+            "phoneNumber": "1869425465",
+            "priority": "normal",
+            "reasonForVisit": "asdfasdfas"
+          },
+          "reminders": {
+            "emailReminder": true,
+            "sent24h": false,
+            "sent2h": false,
+            "smsReminder": true
+          },
+          "timestamps": {
+            "cancelledAt": "2025-08-18T19:30:31.871Z",
+            "createdAt": "2025-08-18T19:04:00.947Z",
+            "scheduledAt": "2025-08-18T19:04:00.947Z",
+            "updatedAt": "2025-08-18T19:30:31.871Z"
+          },
+          "updatedAt": "2025-08-18T19:30:31.871Z"
+        }
+      },
+      "chatSupport": {
+        "conversations": {
+          "-OXyeFgAM_WfpV-JByDg": {
+            "conversationInfo": {
+              "category": "general",
+              "language": "en",
+              "priority": "normal",
+              "status": "active",
+              "subject": "General Support",
+              "type": "general"
+            },
+            "id": "-OXyeFgAM_WfpV-JByDg",
+            "metadata": {
+              "escalated": false,
+              "tags": [
+                "general",
+                "support"
+              ]
+            },
+            "participants": {
+              "supportAgent": "agent_001"
+            },
+            "timestamps": {
+              "createdAt": "2025-08-18T19:30:07.358Z",
+              "lastMessageAt": "2025-08-18T19:30:08.066Z",
+              "updatedAt": "2025-08-18T19:30:08.066Z"
+            }
+          },
+          "-OXyeFgCs0wo6CfLjP5P": {
+            "conversationInfo": {
+              "category": "general",
+              "language": "en",
+              "priority": "normal",
+              "status": "active",
+              "subject": "General Support",
+              "type": "general"
+            },
+            "id": "-OXyeFgCs0wo6CfLjP5P",
+            "metadata": {
+              "escalated": false,
+              "tags": [
+                "general",
+                "support"
+              ]
+            },
+            "participants": {
+              "supportAgent": "agent_001"
+            },
+            "timestamps": {
+              "createdAt": "2025-08-18T19:30:07.361Z",
+              "lastMessageAt": "2025-08-18T19:30:20.708Z",
+              "updatedAt": "2025-08-18T19:30:20.708Z"
+            }
+          }
+        },
+        "messages": {
+          "-OXyeFgAM_WfpV-JByDg": {
+            "-OXyeFljj6koKNrVslpA": {
+              "content": {
+                "text": "Hello! Welcome to MediCare Hospital support. How can I help you today?",
+                "type": "text"
+              },
+              "id": "-OXyeFljj6koKNrVslpA",
+              "isEdited": false,
+              "senderId": "agent_001",
+              "senderType": "support",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T19:30:07.715Z",
+                "sentAt": "2025-08-18T19:30:07.715Z"
+              }
+            }
+          },
+          "-OXyeFgCs0wo6CfLjP5P": {
+            "-OXyeFlpJ06fgW4FVok1": {
+              "content": {
+                "text": "Hello! Welcome to MediCare Hospital support. How can I help you today?",
+                "type": "text"
+              },
+              "id": "-OXyeFlpJ06fgW4FVok1",
+              "isEdited": false,
+              "senderId": "agent_001",
+              "senderType": "support",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T19:30:07.721Z",
+                "sentAt": "2025-08-18T19:30:07.721Z"
+              }
+            },
+            "-OXyeGiK8ISl83psMFkf": {
+              "content": {
+                "text": "hi",
+                "type": "text"
+              },
+              "id": "-OXyeGiK8ISl83psMFkf",
+              "isEdited": false,
+              "senderId": "bylekKK9S6PafQEvvMJB0XSJ1pA3",
+              "senderType": "patient",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T19:30:11.593Z",
+                "sentAt": "2025-08-18T19:30:11.593Z"
+              }
+            },
+            "-OXyeHGGbUJ1rn8NZcUD": {
+              "content": {
+                "text": "I understand your concern. Let me look into this for you.",
+                "type": "text"
+              },
+              "id": "-OXyeHGGbUJ1rn8NZcUD",
+              "isEdited": false,
+              "senderId": "agent_001",
+              "senderType": "support",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T19:30:13.829Z",
+                "sentAt": "2025-08-18T19:30:13.829Z"
+              }
+            },
+            "-OXyeHGQjd6xCsxh8dKo": {
+              "content": {
+                "text": "yes",
+                "type": "text"
+              },
+              "id": "-OXyeHGQjd6xCsxh8dKo",
+              "isEdited": false,
+              "senderId": "bylekKK9S6PafQEvvMJB0XSJ1pA3",
+              "senderType": "patient",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T19:30:13.839Z",
+                "sentAt": "2025-08-18T19:30:13.839Z"
+              }
+            },
+            "-OXyeHvJfQD44wgbDrj6": {
+              "content": {
+                "text": "Thank you for your message. Let me help you with that.",
+                "type": "text"
+              },
+              "id": "-OXyeHvJfQD44wgbDrj6",
+              "isEdited": false,
+              "senderId": "agent_001",
+              "senderType": "support",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T19:30:16.520Z",
+                "sentAt": "2025-08-18T19:30:16.520Z"
+              }
+            },
+            "-OXyeHyejpbLpHJ27k_6": {
+              "content": {
+                "text": "hello",
+                "type": "text"
+              },
+              "id": "-OXyeHyejpbLpHJ27k_6",
+              "isEdited": false,
+              "senderId": "bylekKK9S6PafQEvvMJB0XSJ1pA3",
+              "senderType": "patient",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T19:30:16.734Z",
+                "sentAt": "2025-08-18T19:30:16.734Z"
+              }
+            },
+            "-OXyeIr8-r6n-tdNvgZR": {
+              "content": {
+                "text": "I'm here to help. Could you please provide more details?",
+                "type": "text"
+              },
+              "id": "-OXyeIr8-r6n-tdNvgZR",
+              "isEdited": false,
+              "senderId": "agent_001",
+              "senderType": "support",
+              "status": "delivered",
+              "timestamps": {
+                "deliveredAt": "2025-08-18T19:30:20.349Z",
+                "sentAt": "2025-08-18T19:30:20.349Z"
+              }
+            }
+          }
+        }
+      },
+      "prescriptions": {
+        "-OXyXx6AytXUIxY2PYwL": {
+          "appointmentId": "",
+          "doctorId": "demo_doctor_123",
+          "documents": {
+            "doc1": {
+              "fileName": "logo_3.png",
+              "fileSize": "0.01MB",
+              "fileType": "image/png",
+              "fileUrl": "https://storage.example.com/prescriptions/logo_3.png",
+              "uploadedAt": "2025-08-18T18:58:12.161Z"
+            }
+          },
+          "id": "-OXyXx6AytXUIxY2PYwL",
+          "notes": "asdfasdf",
+          "prescriptionDetails": {
+            "expiryDate": "2025-11-16",
+            "instructions": "asdfasdf",
+            "prescribedDate": "2025-08-20",
+            "status": "active",
+            "title": "medication - 8/20/2025",
+            "type": "medication"
+          },
+          "timestamps": {
+            "createdAt": "2025-08-18T18:58:12.161Z",
+            "updatedAt": "2025-08-18T18:58:12.161Z"
+          }
+        }
+      },
+      "profile": {
+        "address": {
+          "city": "",
+          "country": "",
+          "state": "",
+          "street": "",
+          "zipCode": ""
+        },
+        "dateOfBirth": "",
+        "displayName": "John Doe",
+        "emergencyContact": {
+          "name": "",
+          "phoneNumber": "",
+          "relationship": ""
+        },
+        "gender": "",
+        "phoneNumber": "",
+        "updatedAt": "2025-08-18T19:34:55.021Z"
+      },
+      "systemSettings": {
+        "notifications": {
+          "appointmentReminders": true,
+          "emailNotifications": true,
+          "marketingEmails": false,
+          "prescriptionReminders": true,
+          "pushNotifications": true,
+          "smsNotifications": true
+        },
+        "preferences": {
+          "dateFormat": "MM/DD/YYYY",
+          "language": "en",
+          "timeFormat": "12h",
+          "timezone": "UTC"
+        },
+        "privacy": {
+          "allowCommunicationFromDoctors": true,
+          "profileVisibility": "private",
+          "shareDataForResearch": false
+        }
+      }
+    },
+    "xAEvIzLetOfkV1rO1TavecU9WcN2": {
+      "profile": {
+        "createdAt": "2025-08-18T18:47:53.153Z",
+        "displayName": "John Doe2",
+        "email": "john2@gmail.com",
+        "emailVerified": true,
+        "isActive": true,
+        "lastLoginAt": "2025-08-18T18:47:53.153Z",
+        "role": "user",
+        "uid": "xAEvIzLetOfkV1rO1TavecU9WcN2"
+      },
+      "systemSettings": {
+        "notifications": {
+          "appointmentReminders": true,
+          "emailNotifications": true,
+          "marketingEmails": false,
+          "prescriptionReminders": true,
+          "pushNotifications": true,
+          "smsNotifications": true
+        },
+        "preferences": {
+          "dateFormat": "MM/DD/YYYY",
+          "language": "en",
+          "timeFormat": "12h",
+          "timezone": "UTC"
+        },
+        "privacy": {
+          "allowCommunicationFromDoctors": true,
+          "profileVisibility": "private",
+          "shareDataForResearch": false
+        }
+      }
+    }
+  }
+}
