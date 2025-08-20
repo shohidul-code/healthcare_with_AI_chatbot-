@@ -143,9 +143,9 @@ export default function Dashboard({ onTabChange }: DashboardProps) {
             <div>
               <h4 className="font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-300">
-                <p>📞 +1 (555) 123-4567</p>
+                <p>📞 +880-1799-725100</p>
                 <p>✉️ info@medicare.com</p>
-                <p>📍 123 Health St, Medical City</p>
+                <p>📍 469 Health St, Medical City</p>
               </div>
             </div>
             
@@ -153,7 +153,7 @@ export default function Dashboard({ onTabChange }: DashboardProps) {
               <h4 className="font-semibold mb-4">Emergency</h4>
               <div className="space-y-2 text-gray-300">
                 <p>🚨 24/7 Emergency Line</p>
-                <p>📞 +1 (555) 911-HELP</p>
+                <p>📞 999-HELP</p>
               </div>
             </div>
           </div>
